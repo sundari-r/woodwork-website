@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .logo{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px;
+    margin-left: 39px;
+    margin-top:11px ;
+    font-size: 39px;
+}
+header .logo img{
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    margin-top: 9px;
+    object-fit: cover;
+}
+#home .img a{
+
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 889px;
+    top: 149px;  
+}
+#home .img a:hover{
+    background-color: white;
+    color: black;
+}
+#home .img{
+    background-image: url(dp.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+background-position: center;
+width: 1899px;
+background-size: cover;
+background-attachment: fixed;
+padding-top: 22px;
+}
+#home .img p{
+    color: white;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 241px;
+    font-size:43px;
+    margin-left: 35%;
+    padding: 12px;
+}
+#home .img h1{
+    color: rgba(255, 255, 255, 0.932);
+    padding: 1px;
+    text-align: left;
+    margin-left: 35%;
+    padding: 12px;
+}
+#home .img h2{
+    color: rgba(255, 255, 255, 0.781);
+    padding: 1px;
+    text-align: left;
+    margin-left: 35%;
+    padding: 12px;
+}
+#home .img h3{
+    color: rgba(255, 255, 255, 0.637);
+    padding: 1px;
+    text-align: left;
+    margin-left: 35%;
+}
+.product .box img{
+width: 199px;
+height: 199px;
+object-fit: cover;
+
+}
+.product h1{
+    font-size: 49px;
+}
+#details{
+    height: 90px;
+    position: relative;
+    background: url(pexels-photo-628241.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    font-size: 19px;
+    background-attachment: fixed;
+}
+#contacts{
+    height: 71px;
+   margin-top: 0px;
+bottom: 0;
+position: relative;
+border-bottom: 0px;
+}
+.product{
+    background: url(pexels-karolina-grabowska-4590785.jpg);
+    object-fit: cover;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+}
+.product .box {
+margin-left: 73px;
+float: inline-start;
+margin-top: 39px;
+padding: 14px;
+ }
+  
+  .product .box h2{
+    padding: 11px;
+    color: rgba(0, 0, 0, 0.363);
+  }
+
+  .product .box p{
+    font-weight: 200;
+    font-size: 29px;
+    text-align: left;
+color: rgba(47, 47, 48, 0.616);
+width: 311px;
+height: 411px;
+margin-left:3px;
+padding-top: 14px;
+  }
+  #details .about h4{
+   margin-top: 1px;
+    float: left;
+    width: 111px;
+    height: 1981px;
+    font-size:19px;
+    font-weight: 2111;   
+     margin-top: 4px;
+     text-align: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+text-shadow: 1px;
+    color:rgba(46, 40, 40, 0.63);
+margin-left: 79px;
+
+  }
+  #details .about h1{
+padding: 2px;
+font-size: 42px;
+margin-top: 4px;
+border-bottom: 4px;
+margin-right: 23px;
+font-family: 'Playfair Display', serif;
+text-shadow:2px 2px;
+color: rgba(0, 0, 0, 0.829);
+  }
+  #details .about p{
+    text-align: left;
+    margin-left: 65px;
+    width: 383px;
+    gap:0;
+  }
+  
+.img .sp{
+    
+    border-radius: 19%;
+    width:  9%;
+    height: 7%;
+    margin-top: 23px;
+}
+header{
+background-image: url(pexels-fwstudio-172276.jpg);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 99px;
+    color: rgba(255, 255, 255, 0.911);
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .toggle-button{
+        position: absolute;
+        top: .74rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 31px;
+        height: 21px;
+    }
+    .toggle-button .bar{
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        border-radius: 11px;
+    }
+
+.nav-links ul{
+    display: flex;
+margin-right: 21px;
+width: 100%;
+font-size: 21px;
+border-bottom: 31px;
+list-style-type: none;
+}
+  .nav-links ul li a{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 21px;
+    color: white;
+    list-style-type: none;
+text-decoration-line: none;
+   font-size: 28px;
+   margin-top: 1px;
+   font-family: 'Playfair Display', serif;
+}
+header nav a:hover{
+    color: rgb(92, 89, 86);
+    background-color: white;
+}
+.nav-links ul li.contacts{
+    border: 1px solid rgba(255, 255, 255, 0.877);
+    
+    width: 143px;
+}
+section{
+    min-height: 90vh;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.63);
+    
+    display: flex;
+    justify-content: center;
+
+}
+section #contacts{
+    max-height: 43vh;  
+}
+
+
+#contacts .contacts{
+    
+    height: 237px;
+    margin-bottom: 48px;
+    background-image: url(pexels-fwstudio-172276.jpg);
+    color: rgb(247, 239, 239);
+    width: 100%;
+
+}
+#contacts .icon a{
+    padding: 24px;
+color: white;
+border-radius: 50%;
+font-size: 21px;
+}
+
+
+@media only screen and (max-width:450px){
+   
+    .nav-links{
+        padding:0;
+    }
+ .toggle-button{
+        display: flex;
+        cursor: pointer;
+    }
+    #home .img{
+        width: fit-content;
+       }
+       #home .img a{
+        margin-bottom: 12px;
+        font-size: 11px;
+       }
+    .logo{
+       position: absolute;
+        top:30px;
+        left:30px;
+        
+    }
+     .nav-links {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+    flex-direction: column;
+    width: 100vw;
+    height: 0px;
+    justify-content: center;
+    background:#36060677;
+    transition: all 0.2s;
+
+}
+
+    .nav-links ul {
+        height: 0;
+        display: block;
+        width: fit-content;
+        text-align: center;
+        margin: 80px auto 0 auto;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-links ul li a{
+        margin-bottom: 12px;
+        color: white;
+        font-size: 26px;
+        cursor: pointer;
+        font-size: larger;
+    }
+    .nav-links ul li a:hover{
+        background-color: white;
+        color: black;
+        transition: 0.5s ease;
+    }
+    
+    .nav-links.active{
+        height: 390px;
+    width: 239px;
+    margin-left: 131px;
+    }
+    .nav-links.active ul{
+        opacity: 1;
+    }
+    .nav-links ul li.contacts{
+        text-decoration: none;
+        border-style: none;
+    }
+    #products .product .box{
+        width: fit-content;
+    }
+    #details{
+    height: 811px;
+   }
+    #details .about h4 {
+        margin-left: 10px;
+        width: 592px;
+        height: 482px;
+        object-fit: cover;
+        align-items: center;
+       width: fit-content;
+        margin-left: 1px;
+        background-size: cover;
+ }
+ html,body{
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+ }
+ #home .img p{
+    margin-left: 1px;
+    margin-top: 29px;
+    padding-top: 11px;
+ }
+ #home .img h1{
+    margin-left: 1px;
+ }
+ #home .img h2{
+    margin-left: 2px;
+ }
+ #home .img h3{
+    margin-left: 2px;
+ }
+}
